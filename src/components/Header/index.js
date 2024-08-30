@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Wrapper, Content, LogoImg, TMDBLogoImg } from "./Header.styles";
 import RMDBLogo from "../../images/mr.png";
-// import TMDBLogo from "../../images/tmdb_logo.svg";
+import TMDBLogo from "../../images/tmdb_logo.svg";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         <Link to="/">
           <LogoImg src={RMDBLogo} alt="Movie Ratingo"/>
         </Link>
-        {/* <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" /> */}
+        <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
       </Content>
     </Wrapper>
   );
