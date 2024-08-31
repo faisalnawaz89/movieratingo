@@ -15,6 +15,7 @@ import Home from "./components/Home";
 import Movie from "./components/Movie";
 import NotFound from "./components/NotFound";
 // import Login from "./components/Login/login";
+//Login page not exit
 
 const App = () => {
   return (
