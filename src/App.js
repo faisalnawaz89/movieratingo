@@ -14,8 +14,8 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Movie from "./components/Movie";
 import NotFound from "./components/NotFound";
+import FooterSection from "./components/Footer";
 // import Login from "./components/Login/login";
-//Login page not exit
 
 const App = () => {
   return (
@@ -30,6 +30,7 @@ const App = () => {
             {/* <Route path="/login" element={<Login />} /> */}
           </Routes>
           <GlobalStyle />
+          <FooterSection/>
         </UserProvider>
       </Router>
     </React.Fragment>

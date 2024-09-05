@@ -10,7 +10,16 @@
 			"path": "../HtmlProjects/realsteel"
 		},
 		{
-			"path": "../Javascript/Project Practise/Test"
+			"path": "../Javascript/Project Practise"
+		},
+		{
+			"path": "../Javascript/React_js/Todo"
+		},
+		{
+			"path": "../BillCount"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project Practise"
+	}
 }
