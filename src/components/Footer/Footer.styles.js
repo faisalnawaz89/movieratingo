@@ -3,7 +3,14 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     background-color: rgb(28 28 28);
     text-align: center;
-    color: #fff;
-    padding: 2rem 0;
-    margin-top:5rem
+    color: rgb(114 114 114);
+    padding: 2rem 3rem;
+    font-family: monospace;
+    margin-top:5rem;
+    @media (max-width: 440px){
+        font-size:11px;
+    }
 `;
+
+// export const Texts = styled(Wrapper)``;
+

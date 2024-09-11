@@ -17,9 +17,13 @@
 		},
 		{
 			"path": "../BillCount"
+		},
+		{
+			"path": "../Furniture"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Project Practise"
+		"liveServer.settings.multiRootWorkspaceName": "Project Practise",
+		"liveServer.settings.port": 5501
 	}
 }
