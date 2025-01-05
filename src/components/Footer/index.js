@@ -2,9 +2,11 @@ import React from "react";
 
 import { Wrapper } from "./Footer.styles";
 
+const date = new Date().getFullYear()
+
 const FooterSection = () => {
     return(
-        <Wrapper>&copy;2024 Movieratingo, Developed by Faisal Nawaz | All rights reserved. database credit: TMDB</Wrapper>
+        <Wrapper>&copy; {date} Movieratingo, Developed by Faisal Nawaz | All rights reserved. database credit: TMDB</Wrapper>
     )
 }
 
