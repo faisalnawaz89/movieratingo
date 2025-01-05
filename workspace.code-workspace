@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "../Furniture"
+		},
+		{
+			"path": "../Javascript/React_js/react-route"
 		}
 	],
 	"settings": {

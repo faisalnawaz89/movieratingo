@@ -22,3 +22,4 @@ export const Image = styled.img`
     object-fit: cover;
     border-radius: 15px;
 `;
+
